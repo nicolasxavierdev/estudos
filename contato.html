@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanches Web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="estrutura">
+
+        <header class="header">
+            <a href="home.html"  class="logo" rel="next" target="_self">LanchesWeb</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="produtos.html" rel="next" target="_self">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="sobre-nos.html" rel="next" target="_self">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" rel="next" target="_self">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <form id="form">
+                <div>
+                    <h2>Fale Conosco</h2>
+                </div>
+
+                <div class="campos">
+                    <div class="area">
+                        <label>
+                            <strong>Nome</strong>
+                        </label>
+                        <br>
+                        <input type="text" name="nome" id="cNo">
+                    </div>
+                    <div class="area">
+                        <label>
+                            <strong>E-mail</strong>
+                        </label>
+                        <br>
+                        <input type="e-mail" name="e-mail" id="cEma">
+                    </div>
+                    <div class="area">
+                        <label>
+                            <strong>Assunto</strong>
+                        </label>
+                        <br>
+                        <input type="text" name="assunto" id="cAssunto">
+                    </div>
+                    <div class="area">
+                        <label>
+                            <strong>Mensagem</strong>
+                        </label>
+                        <br>
+                        <textarea name="mensagem" id="cMensagem"></textarea>
+                    </div>
+                    <div class="area">
+                        <button type="submit">ENVIAR</button>
+                    </div>
+                    <div id="resultado"></div>
+                </div>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <p>Lanche Web &copy; 2021 . Alguns direitos reservados.</p>
+        </footer>
+    </div>
